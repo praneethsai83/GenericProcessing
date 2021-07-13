@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T06:33:08.405Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.123 Safari/537.36" etag="pL3VFDlIJM0PFRpecsAE" version="14.8.6" type="github" pages="2">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-07-13T06:38:42.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.123 Safari/537.36" etag="gzLsP7qkhb9YcRB2ETus" version="14.8.6" type="github" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="parsing">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -168,27 +168,42 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="u2HsZxxzuq3RQ41EybqB" name="Page-2">
+  <diagram id="u2HsZxxzuq3RQ41EybqB" name="enrichment">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BqmCzdSlq5FXhEj4esph-0" />
         <mxCell id="BqmCzdSlq5FXhEj4esph-1" parent="BqmCzdSlq5FXhEj4esph-0" />
-        <mxCell id="BqmCzdSlq5FXhEj4esph-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BqmCzdSlq5FXhEj4esph-1" source="BqmCzdSlq5FXhEj4esph-2" target="BqmCzdSlq5FXhEj4esph-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BqmCzdSlq5FXhEj4esph-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BqmCzdSlq5FXhEj4esph-1" source="BqmCzdSlq5FXhEj4esph-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BqmCzdSlq5FXhEj4esph-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
           <mxGeometry x="354" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BqmCzdSlq5FXhEj4esph-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.04;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="BqmCzdSlq5FXhEj4esph-1" source="BqmCzdSlq5FXhEj4esph-3" target="BqmCzdSlq5FXhEj4esph-7">
+        <mxCell id="BqmCzdSlq5FXhEj4esph-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.04;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="BqmCzdSlq5FXhEj4esph-1" target="BqmCzdSlq5FXhEj4esph-7">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="471" y="190" as="sourcePoint" />
             <mxPoint x="554" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BqmCzdSlq5FXhEj4esph-3" value="Input Dataframe,&amp;nbsp;&lt;br&gt;Configuration" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
-          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="BqmCzdSlq5FXhEj4esph-7" value="&lt;b&gt;&lt;u&gt;Configuration Details&lt;/u&gt;&lt;/b&gt;&lt;br&gt;table name&lt;br&gt;table query&lt;br&gt;extract columns&lt;br&gt;master join columns&lt;br&gt;enrich join columns&lt;br&gt;join expression&lt;br&gt;join type&lt;br&gt;additional columns&lt;br&gt;column data types&lt;br&gt;drop columns&lt;br&gt;column rename&lt;br&gt;filter condition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
           <mxGeometry x="550" y="20" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="BLwmwBdNt_kXqMHtZqJM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BqmCzdSlq5FXhEj4esph-1" source="BLwmwBdNt_kXqMHtZqJM-0" target="BLwmwBdNt_kXqMHtZqJM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BLwmwBdNt_kXqMHtZqJM-0" value="input dataframe, configuration details" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
+          <mxGeometry x="342" y="160" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BLwmwBdNt_kXqMHtZqJM-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BqmCzdSlq5FXhEj4esph-1" source="BLwmwBdNt_kXqMHtZqJM-3" target="BLwmwBdNt_kXqMHtZqJM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BLwmwBdNt_kXqMHtZqJM-3" value="filter the dataframe using filter condition" style="whiteSpace=wrap;html=1;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
+          <mxGeometry x="354" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BLwmwBdNt_kXqMHtZqJM-5" value="status = &#39;active&#39; &lt;br&gt;and &lt;br&gt;table query &lt;br&gt;or &lt;br&gt;name is not null" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
+          <mxGeometry x="328" y="430" width="172" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
