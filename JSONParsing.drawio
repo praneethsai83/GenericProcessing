@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T06:38:42.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.123 Safari/537.36" etag="gzLsP7qkhb9YcRB2ETus" version="14.8.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-13T06:41:40.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.123 Safari/537.36" etag="GHN0wCHplQe-m5KEA_VY" version="14.8.6" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="parsing">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -202,8 +202,17 @@
         <mxCell id="BLwmwBdNt_kXqMHtZqJM-3" value="filter the dataframe using filter condition" style="whiteSpace=wrap;html=1;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
           <mxGeometry x="354" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BLwmwBdNt_kXqMHtZqJM-5" value="status = &#39;active&#39; &lt;br&gt;and &lt;br&gt;table query &lt;br&gt;or &lt;br&gt;name is not null" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
+        <mxCell id="BLwmwBdNt_kXqMHtZqJM-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BqmCzdSlq5FXhEj4esph-1" source="BLwmwBdNt_kXqMHtZqJM-5" target="BLwmwBdNt_kXqMHtZqJM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BLwmwBdNt_kXqMHtZqJM-5" value="status = &#39;active&#39; &lt;br&gt;and &lt;br&gt;(table query &lt;br&gt;or &lt;br&gt;name is not null)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
           <mxGeometry x="328" y="430" width="172" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BLwmwBdNt_kXqMHtZqJM-7" value="extract column is not null&lt;br&gt;and is sbuset of coluns of&amp;nbsp;&lt;br&gt;dataframe" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
+          <mxGeometry x="328" y="640" width="172" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BLwmwBdNt_kXqMHtZqJM-9" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="BqmCzdSlq5FXhEj4esph-1">
+          <mxGeometry x="425" y="600" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
