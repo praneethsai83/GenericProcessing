@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-19T12:21:46.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="V7wuGKid6Jl3c_GKIJjx" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-19T12:28:31.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="SNftAwSJjfKnwsapQQHu" version="14.8.6" type="github" pages="2">
   <diagram id="bV5uGFDOHr81jNztg04s" name="utility workflow">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,6 +51,23 @@
         </mxCell>
         <mxCell id="lKvfGLD9-tZHIK8uzIf0-17" value="Call the fork fuction with the output dataframe and the next workflow id" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3HXVRHafxJW0BGyyEgde" name="fork">
+    <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="CAipoO1sGvV_kaEs8dUC-0" />
+        <mxCell id="CAipoO1sGvV_kaEs8dUC-1" parent="CAipoO1sGvV_kaEs8dUC-0" />
+        <mxCell id="CAipoO1sGvV_kaEs8dUC-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAipoO1sGvV_kaEs8dUC-1" source="CAipoO1sGvV_kaEs8dUC-2" target="CAipoO1sGvV_kaEs8dUC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAipoO1sGvV_kaEs8dUC-2" value="inputDF&lt;br&gt;workflow_id&lt;br&gt;fork_taken_care" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="CAipoO1sGvV_kaEs8dUC-1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CAipoO1sGvV_kaEs8dUC-3" value="dependency_countt&amp;gt;1&lt;br&gt;and&lt;br&gt;fork_taken_care=&quot;N&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CAipoO1sGvV_kaEs8dUC-1">
+          <mxGeometry x="338" y="170" width="152" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
