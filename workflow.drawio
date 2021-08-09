@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-09T12:48:34.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Qyzc4Fyh7by5GGRr5nid" version="14.9.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-09T13:00:04.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="hdKtMHPyZ81e5POlWXdg" version="14.9.5" type="github" pages="2">
   <diagram id="bV5uGFDOHr81jNztg04s" name="utility workflow">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,8 +78,8 @@
         <mxCell id="CAipoO1sGvV_kaEs8dUC-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" source="CAipoO1sGvV_kaEs8dUC-5" target="CAipoO1sGvV_kaEs8dUC-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CAipoO1sGvV_kaEs8dUC-5" value="Loop through all the cofigurations for which dependency id = dependency_id" style="whiteSpace=wrap;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" vertex="1">
-          <mxGeometry x="439" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="CAipoO1sGvV_kaEs8dUC-5" value="Loop through all the cofigurations for which dependency id = dependency_id of current workflow_id" style="whiteSpace=wrap;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" vertex="1">
+          <mxGeometry x="440" y="200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CAipoO1sGvV_kaEs8dUC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" source="CAipoO1sGvV_kaEs8dUC-7" target="CAipoO1sGvV_kaEs8dUC-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -95,13 +95,16 @@
             <mxPoint x="699" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CAipoO1sGvV_kaEs8dUC-9" value="call fork with inputDF&lt;br&gt;workflow_id and&lt;br&gt;fork_taken_care = &quot;Y&quot;" style="whiteSpace=wrap;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" vertex="1">
+        <mxCell id="CAipoO1sGvV_kaEs8dUC-9" value="call fork with inputDF,&lt;br&gt;workflow_id and&lt;br&gt;fork_taken_care = &quot;Y&quot;" style="whiteSpace=wrap;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" vertex="1">
           <mxGeometry x="639" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CAipoO1sGvV_kaEs8dUC-12" value="&lt;b&gt;&lt;u&gt;Workflow Configuration&lt;/u&gt;&lt;/b&gt;&lt;br&gt;workflow_id&lt;br&gt;dependency_id&lt;br&gt;op_type&lt;br&gt;dependency_count&lt;br&gt;next_step_id" style="whiteSpace=wrap;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" vertex="1">
           <mxGeometry x="660" y="10" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="CAipoO1sGvV_kaEs8dUC-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" source="CAipoO1sGvV_kaEs8dUC-13" target="CAipoO1sGvV_kaEs8dUC-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVYTkzADyo-RcCQr3VWv-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAipoO1sGvV_kaEs8dUC-1" source="CAipoO1sGvV_kaEs8dUC-13" target="MVYTkzADyo-RcCQr3VWv-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CAipoO1sGvV_kaEs8dUC-13" value="if return value&lt;br&gt;is dataframe" style="rhombus;whiteSpace=wrap;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" vertex="1">
@@ -317,6 +320,15 @@
         </mxCell>
         <mxCell id="MVYTkzADyo-RcCQr3VWv-34" value="Read the data into a dataframe" style="whiteSpace=wrap;html=1;" vertex="1" parent="CAipoO1sGvV_kaEs8dUC-1">
           <mxGeometry x="47" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVYTkzADyo-RcCQr3VWv-37" value="Return (1,1)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CAipoO1sGvV_kaEs8dUC-1">
+          <mxGeometry x="458" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVYTkzADyo-RcCQr3VWv-39" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="CAipoO1sGvV_kaEs8dUC-1">
+          <mxGeometry x="605" y="360" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MVYTkzADyo-RcCQr3VWv-40" value="call fork with reultant dataframe and next_workflow_id" style="whiteSpace=wrap;html=1;" vertex="1" parent="CAipoO1sGvV_kaEs8dUC-1">
+          <mxGeometry y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
