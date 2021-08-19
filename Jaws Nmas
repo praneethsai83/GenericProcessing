@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T06:41:54.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="X-yT3LgK310hhy3ZJMv9" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T06:43:04.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="g0sOVaVmpQV8XA_vdGPx" version="14.9.6" type="github">
   <diagram id="xfQwxix4aiAt1j3Dh2kw" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,11 +31,17 @@
         <mxCell id="YQLhjYt0Zu-lRBk86HQv-2" value="Read from Kafka" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YQLhjYt0Zu-lRBk86HQv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YQLhjYt0Zu-lRBk86HQv-4" target="YQLhjYt0Zu-lRBk86HQv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YQLhjYt0Zu-lRBk86HQv-4" value="ns_lbserver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YQLhjYt0Zu-lRBk86HQv-5" value="nssdx" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQLhjYt0Zu-lRBk86HQv-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YQLhjYt0Zu-lRBk86HQv-6" target="YQLhjYt0Zu-lRBk86HQv-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YQLhjYt0Zu-lRBk86HQv-6" value="ns" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="240" width="120" height="60" as="geometry" />
@@ -48,6 +54,12 @@
         </mxCell>
         <mxCell id="YQLhjYt0Zu-lRBk86HQv-9" value="ns_servicegroup&lt;br&gt;member_binding" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQLhjYt0Zu-lRBk86HQv-16" value="Wirte to&amp;nbsp;&lt;br&gt;adm_inventory_stg" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQLhjYt0Zu-lRBk86HQv-18" value="Wirte to&amp;nbsp;&lt;br&gt;adm_inventory_stg" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
