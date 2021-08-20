@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T08:46:42.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="uvRjch6hJItdy1j_clh0" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-20T08:47:37.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="neXOVUVVEQQWQj7FzBAu" version="14.9.8" type="github">
   <diagram id="VehfyrlFy6fcQ9Lrb8BW" name="Page-1">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,14 +40,32 @@
         <mxCell id="oHNij5BjLmfJVLid6y8Y-8" value="Filter on appname=&#39;appname3&#39; and appsubname = &#39;appsubname3&#39;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="oHNij5BjLmfJVLid6y8Y-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oHNij5BjLmfJVLid6y8Y-14" target="oHNij5BjLmfJVLid6y8Y-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oHNij5BjLmfJVLid6y8Y-14" value="Time based Aggregation with workflow_id=wf1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="293.5" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHNij5BjLmfJVLid6y8Y-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oHNij5BjLmfJVLid6y8Y-16" target="oHNij5BjLmfJVLid6y8Y-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHNij5BjLmfJVLid6y8Y-16" value="Time based Aggregation with workflow_id=wf2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="260" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="oHNij5BjLmfJVLid6y8Y-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oHNij5BjLmfJVLid6y8Y-17" target="oHNij5BjLmfJVLid6y8Y-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oHNij5BjLmfJVLid6y8Y-17" value="Time based Aggregation with workflow_id=wf3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHNij5BjLmfJVLid6y8Y-20" value="Write to Kafka" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293.5" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHNij5BjLmfJVLid6y8Y-22" value="Write to Kafka" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHNij5BjLmfJVLid6y8Y-23" value="Write to Kafka" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
