@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T10:09:20.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="KFp74wZmxVypPUpBmNhy" version="14.9.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-20T10:09:40.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="1Habi-WTOq6f9FTBfFjt" version="14.9.8" type="github" pages="4">
   <diagram id="VehfyrlFy6fcQ9Lrb8BW" name="AppAgg">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -442,7 +442,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aPXYJUtieeMf6EmVdkKQ-23" value="set max recorded time = max(insert timestamp)" style="whiteSpace=wrap;html=1;" vertex="1" parent="aPXYJUtieeMf6EmVdkKQ-1">
+        <mxCell id="aPXYJUtieeMf6EmVdkKQ-23" value="update max recorded time = max(insert timestamp)" style="whiteSpace=wrap;html=1;" vertex="1" parent="aPXYJUtieeMf6EmVdkKQ-1">
           <mxGeometry x="208" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aPXYJUtieeMf6EmVdkKQ-26" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="aPXYJUtieeMf6EmVdkKQ-1">
