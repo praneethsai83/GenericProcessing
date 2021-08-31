@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-31T13:14:42.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="jS0yRZ6OldcZfVnV8zXW" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-31T13:17:26.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="aOiOl6u0Ko42Uys6onPG" version="15.0.3" type="github">
   <diagram id="wvjqiS4NNBoVtzlgFg_t" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -65,6 +65,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="forW44dAr1XnLc8ot3tW-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="forW44dAr1XnLc8ot3tW-19" target="forW44dAr1XnLc8ot3tW-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="forW44dAr1XnLc8ot3tW-19" value="&lt;b&gt;Filter &lt;/b&gt;- soruceappname != citrix" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="470" width="120" height="60" as="geometry" />
         </mxCell>
@@ -92,8 +95,23 @@
         <mxCell id="forW44dAr1XnLc8ot3tW-27" value="&lt;b&gt;Aggregation&lt;/b&gt;&lt;br&gt;to get latest citrix data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="497" y="650" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="forW44dAr1XnLc8ot3tW-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="forW44dAr1XnLc8ot3tW-29" target="forW44dAr1XnLc8ot3tW-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="forW44dAr1XnLc8ot3tW-29" value="&lt;b&gt;Expression evaluation&lt;/b&gt; to get kpi value" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="497" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="forW44dAr1XnLc8ot3tW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="forW44dAr1XnLc8ot3tW-31" target="forW44dAr1XnLc8ot3tW-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="forW44dAr1XnLc8ot3tW-31" value="&lt;b&gt;Expression evaluation&lt;/b&gt; to get kpi value" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="forW44dAr1XnLc8ot3tW-33" value="&lt;b&gt;Enrichment&lt;/b&gt;&lt;br&gt;kpi_Data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="forW44dAr1XnLc8ot3tW-35" value="&lt;b&gt;Enrichment&lt;/b&gt;&lt;br&gt;kpi_Data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
