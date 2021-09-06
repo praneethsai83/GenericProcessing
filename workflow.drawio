@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-06T02:29:13.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="nQ4R_3yx37pkh5kRU4og" version="15.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-06T02:30:05.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="F2kQkSk3A24l-yUEQrhU" version="15.0.6" type="github">
   <diagram id="3HXVRHafxJW0BGyyEgde" name="fork">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -362,62 +362,6 @@
         </mxCell>
         <mxCell id="Wl2jdlcOw8youa19gEGy-7" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CAipoO1sGvV_kaEs8dUC-1">
           <mxGeometry x="755" y="1000" width="30" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="bV5uGFDOHr81jNztg04s" name="utility workflow">
-    <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lKvfGLD9-tZHIK8uzIf0-1" target="lKvfGLD9-tZHIK8uzIf0-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-1" value="Read" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lKvfGLD9-tZHIK8uzIf0-2" target="lKvfGLD9-tZHIK8uzIf0-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-2" value="Filter data on given filter condition" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lKvfGLD9-tZHIK8uzIf0-4" target="lKvfGLD9-tZHIK8uzIf0-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-4" value="Pass the config and input rdd to the character replacement function" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lKvfGLD9-tZHIK8uzIf0-7" target="lKvfGLD9-tZHIK8uzIf0-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-7" value="Loop through all the configurations whose dependency id is the workflow id of Read" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lKvfGLD9-tZHIK8uzIf0-11" target="lKvfGLD9-tZHIK8uzIf0-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-11" value="Pass the filtered and character replaced rdd to the JSON parsing function" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="460" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lKvfGLD9-tZHIK8uzIf0-13" target="lKvfGLD9-tZHIK8uzIf0-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-13" value="Pass the output Dataframe to the field character replacement function" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lKvfGLD9-tZHIK8uzIf0-15" target="lKvfGLD9-tZHIK8uzIf0-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-15" value="Pass the output dataframe to the KPI filter function" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="740" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="lKvfGLD9-tZHIK8uzIf0-17" target="lKvfGLD9-tZHIK8uzIf0-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lKvfGLD9-tZHIK8uzIf0-17" value="Call the fork fuction with the output dataframe and the next workflow id" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
