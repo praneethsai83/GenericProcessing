@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-06T02:30:05.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="F2kQkSk3A24l-yUEQrhU" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-06T02:34:24.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="FcMx_UB5YCKJ0j6Q_-VO" version="15.0.6" type="github">
   <diagram id="3HXVRHafxJW0BGyyEgde" name="fork">
-    <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CAipoO1sGvV_kaEs8dUC-0" />
         <mxCell id="CAipoO1sGvV_kaEs8dUC-1" parent="CAipoO1sGvV_kaEs8dUC-0" />
@@ -111,7 +111,7 @@
         <mxCell id="Wl2jdlcOw8youa19gEGy-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAipoO1sGvV_kaEs8dUC-1" source="CAipoO1sGvV_kaEs8dUC-30" target="Wl2jdlcOw8youa19gEGy-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CAipoO1sGvV_kaEs8dUC-30" value="foreach unioned dataframe with a next workflow id, call fork with dataframe and id" style="whiteSpace=wrap;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" vertex="1">
+        <mxCell id="CAipoO1sGvV_kaEs8dUC-30" value="foreach unioned dataframe with a next workflow id, prev wf id and crnt wf id" style="whiteSpace=wrap;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" vertex="1">
           <mxGeometry x="639" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MVYTkzADyo-RcCQr3VWv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CAipoO1sGvV_kaEs8dUC-1" source="CAipoO1sGvV_kaEs8dUC-34" edge="1">
