@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T09:06:20.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="NCo8dacM3Lol4sw4pn68" version="15.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-14T09:07:06.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Cr75exJZ7Q7HMAW5CMkr" version="15.2.2" type="github" pages="6">
   <diagram id="5i1gYkIpQbCVIJ6hsDEV" name="AppAggGrp3">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -693,14 +693,31 @@
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-65" value="processed = &quot;Y&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
           <mxGeometry x="374" y="1910" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1" source="H_Zf3us0Y0uYUU5Nzzl9-67" target="H_Zf3us0Y0uYUU5Nzzl9-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="1950" />
+              <mxPoint x="700" y="1840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-67" value="Recurssively call &lt;b&gt;fork&lt;/b&gt; function with arguments df (value of &lt;b&gt;mapvar&lt;/b&gt;) and next_wf_id (key of &lt;b&gt;mapvar&lt;/b&gt;)" style="whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
           <mxGeometry x="514" y="1920" width="156" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-69" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
           <mxGeometry x="474" y="1930" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1" source="H_Zf3us0Y0uYUU5Nzzl9-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-75" value="&lt;span&gt;add the df into&amp;nbsp;&lt;/span&gt;&lt;b&gt;arrbfr&amp;nbsp;&lt;/b&gt;&lt;span&gt;with next_wf_id, previous_wf_id and current_wf_id&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
           <mxGeometry x="341" y="2030" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-77" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
+          <mxGeometry x="420" y="1990" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
