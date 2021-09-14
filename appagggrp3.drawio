@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T09:19:03.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="dVcSdD0wC_-hHlDR6VJF" version="15.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-14T09:23:50.742Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="G6PFbgBux04P3OHZf2vA" version="15.2.2" type="github" pages="6">
   <diagram id="5i1gYkIpQbCVIJ6hsDEV" name="AppAggGrp3">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -817,7 +817,7 @@
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-108" value="op_type =&amp;nbsp;&lt;br&gt;union" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
           <mxGeometry x="117" y="1089" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-109" value="Return (inputDF, next_step_id)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
+        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-109" value="Return ArrayBuffer((inputDF, next_step_id, previous_workflow_id, workflow_id))" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
           <mxGeometry x="-63" y="1099" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1" source="H_Zf3us0Y0uYUU5Nzzl9-112" target="H_Zf3us0Y0uYUU5Nzzl9-114">
@@ -920,7 +920,7 @@
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-140" value="op_type =&amp;nbsp;&lt;br&gt;join" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
           <mxGeometry x="117" y="989" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-141" value="Return (inputDF, next_step_id)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
+        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-141" value="Return ArrayBuffer((inputDF, next_step_id, previous_workflow_id, workflow_id))" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
           <mxGeometry x="-63" y="999" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-142" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
