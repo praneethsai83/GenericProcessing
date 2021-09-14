@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T06:41:17.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="xP5DbyPR2zExHPnctvA3" version="15.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-14T06:41:28.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="sRnMRt8bo_2o-AJ5EGjP" version="15.2.2" type="github" pages="6">
   <diagram id="5i1gYkIpQbCVIJ6hsDEV" name="AppAggGrp3">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -565,7 +565,7 @@
           <mxGeometry x="354" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-28" value="Function &lt;b&gt;fork&lt;/b&gt;&lt;br&gt;&lt;b&gt;parameters&lt;/b&gt;: InputDF, workflow_id, previous_workflow_id, fork_taken_care.&lt;br&gt;&lt;b&gt;Return values:&lt;/b&gt;&lt;br&gt;ArrayBuffer[Tuple4[Any, Int, Int, Int]]" style="whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
-          <mxGeometry x="690" y="20" width="130" height="170" as="geometry" />
+          <mxGeometry x="690" y="20" width="130" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
