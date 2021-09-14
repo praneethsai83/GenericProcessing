@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T09:00:24.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="eptaS2DUDqKIvMVzAc2t" version="15.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-14T09:03:27.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Y1Aybyx6e-AtJH58oklP" version="15.2.2" type="github" pages="6">
   <diagram id="5i1gYkIpQbCVIJ6hsDEV" name="AppAggGrp3">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -678,8 +678,20 @@
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-61" value="Initialize ArrayBuffer &lt;b&gt;arrbfr&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
           <mxGeometry x="354" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1" source="H_Zf3us0Y0uYUU5Nzzl9-63" target="H_Zf3us0Y0uYUU5Nzzl9-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-63" value="foreach element in &lt;b&gt;mapvar&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
           <mxGeometry x="354" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1" source="H_Zf3us0Y0uYUU5Nzzl9-65" target="H_Zf3us0Y0uYUU5Nzzl9-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-65" value="processed = &quot;Y&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
+          <mxGeometry x="374" y="1910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-67" value="Recurssively call &lt;b&gt;fork&lt;/b&gt; function with arguments df (value of &lt;b&gt;mapvar&lt;/b&gt;) and next_wf_id (key of &lt;b&gt;mapvar&lt;/b&gt;)" style="whiteSpace=wrap;html=1;" vertex="1" parent="H_Zf3us0Y0uYUU5Nzzl9-1">
+          <mxGeometry x="514" y="1920" width="156" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
