@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T12:25:23.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="U4IlrP_K55vgMMYS-s6n" version="15.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-09-17T12:25:44.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="I9RcR0WJxsHckzMJ16k-" version="15.2.7" type="github" pages="9">
   <diagram id="5i1gYkIpQbCVIJ6hsDEV" name="AppAggGrp3">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -647,7 +647,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-44" value="join the two dataframes and store the resultant dataframe in the same key in the &lt;b&gt;mapvar (df, previous_wf_id,&amp;nbsp;&lt;/b&gt;&lt;b&gt;next_wf_id&lt;/b&gt;&lt;b&gt;&lt;br&gt;, &quot;Y&quot;)&lt;/b&gt;" style="whiteSpace=wrap;html=1;" parent="H_Zf3us0Y0uYUU5Nzzl9-1" vertex="1">
-          <mxGeometry x="530" y="1450" width="170" height="60" as="geometry" />
+          <mxGeometry x="530" y="1440" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="H_Zf3us0Y0uYUU5Nzzl9-1" source="H_Zf3us0Y0uYUU5Nzzl9-46" target="H_Zf3us0Y0uYUU5Nzzl9-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -678,7 +678,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-48" value="union the two dataframes and store the resultant dataframe in the same key in the&amp;nbsp;&lt;b&gt;mapvar (df, previous_wf_id,&amp;nbsp;&lt;/b&gt;&lt;b&gt;next_wf_id&lt;/b&gt;&lt;b&gt;&lt;br&gt;, &quot;Y&quot;)&lt;/b&gt;" style="whiteSpace=wrap;html=1;" parent="H_Zf3us0Y0uYUU5Nzzl9-1" vertex="1">
-          <mxGeometry x="530" y="1590" width="170" height="60" as="geometry" />
+          <mxGeometry x="530" y="1580" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="H_Zf3us0Y0uYUU5Nzzl9-51" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="H_Zf3us0Y0uYUU5Nzzl9-1" vertex="1">
           <mxGeometry x="414" y="1260" width="20" height="20" as="geometry" />
