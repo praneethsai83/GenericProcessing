@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T02:50:56.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="tG7b9mU5l4R32gSplofD" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-19T02:55:54.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="I3WUtYdrG4aHBwE1d9ia" version="15.2.9" type="github" pages="3">
   <diagram id="KdeVS7gIVLTEDAALo1gI" name="readEnrichmentTables">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -307,8 +307,29 @@
       <root>
         <mxCell id="RtOCHI0iLL4N4nDev4zX-0" />
         <mxCell id="RtOCHI0iLL4N4nDev4zX-1" parent="RtOCHI0iLL4N4nDev4zX-0" />
+        <mxCell id="cNOinaqi7fGtv2sKg03v-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RtOCHI0iLL4N4nDev4zX-1" source="hgCV_nDc1Ys_BDj9ki8U-0" target="cNOinaqi7fGtv2sKg03v-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hgCV_nDc1Ys_BDj9ki8U-0" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RtOCHI0iLL4N4nDev4zX-1">
           <mxGeometry x="354" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y1lXkvN8_1Fsq_ezLX_2-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RtOCHI0iLL4N4nDev4zX-1" source="cNOinaqi7fGtv2sKg03v-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cNOinaqi7fGtv2sKg03v-0" value="&lt;span&gt;enrichment_id&lt;/span&gt;&lt;br&gt;&lt;span&gt;read_enrichment_id&lt;/span&gt;&lt;br&gt;&lt;span&gt;connection_string_id&lt;/span&gt;&lt;br&gt;&lt;span&gt;table_type&lt;/span&gt;&lt;br&gt;&lt;span&gt;status&lt;/span&gt;&lt;br&gt;&lt;span&gt;cache&lt;br&gt;cache_frequency&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="RtOCHI0iLL4N4nDev4zX-1">
+          <mxGeometry x="341" y="100" width="146" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="y1lXkvN8_1Fsq_ezLX_2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RtOCHI0iLL4N4nDev4zX-1" source="y1lXkvN8_1Fsq_ezLX_2-2" target="cNOinaqi7fGtv2sKg03v-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y1lXkvN8_1Fsq_ezLX_2-2" value="initialize a map &lt;b&gt;globally&lt;/b&gt; with name &lt;b&gt;cacheMap&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="RtOCHI0iLL4N4nDev4zX-1">
+          <mxGeometry x="530" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
