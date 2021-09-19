@@ -1,1 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T02:20:59.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.2.9" etag="bCxYdzAJf95dvT18BZiO" type="github"><diagram id="KdeVS7gIVLTEDAALo1gI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-19T02:23:12.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="4wDK5olK2T1VurANPGTw" version="15.2.9" type="github" pages="3">
+  <diagram id="KdeVS7gIVLTEDAALo1gI" name="readEnrichmentTables">
+    <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LUGCbONqt-Zt3Xm9J1nU" name="cacheOrRefreshTables">
+    <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="RtOCHI0iLL4N4nDev4zX-0" />
+        <mxCell id="RtOCHI0iLL4N4nDev4zX-1" parent="RtOCHI0iLL4N4nDev4zX-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MmMJVhHvqZKIbIBw9NZu" name="dynamicEnrichment">
+    <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Wyom_MOlXRKTMaPKCnEa-0" />
+        <mxCell id="Wyom_MOlXRKTMaPKCnEa-1" parent="Wyom_MOlXRKTMaPKCnEa-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
