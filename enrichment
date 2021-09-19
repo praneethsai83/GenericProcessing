@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T07:21:29.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="PXv1944PmUOo7b8KVTc4" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-19T07:21:45.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="vTrT5Nz3fT6mtmc73VJ9" version="15.2.9" type="github" pages="3">
   <diagram id="KdeVS7gIVLTEDAALo1gI" name="readEnrichmentTables">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -486,6 +486,9 @@
         <mxCell id="Wyom_MOlXRKTMaPKCnEa-1" parent="Wyom_MOlXRKTMaPKCnEa-0" />
         <mxCell id="2eKge8My6VdvGZ-3UN7m-0" value="&lt;b&gt;row&lt;/b&gt; contains:&lt;br&gt;status&lt;br&gt;extract_columns&lt;br&gt;master_join_columns&lt;br&gt;enrich_join_columns&lt;br&gt;join_type&lt;br&gt;additional_columns&lt;br&gt;output_columns_datatype&lt;br&gt;drop_columns&lt;br&gt;join_expression&lt;br&gt;columns_rename&lt;br&gt;enrichmentid&lt;br&gt;broadcast" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
           <mxGeometry x="670" y="10" width="150" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2eKge8My6VdvGZ-3UN7m-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="100" y="10" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
