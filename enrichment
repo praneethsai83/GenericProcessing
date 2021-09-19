@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T07:43:09.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="VisnjUsxoEt5L4q5Yu5n" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-19T07:47:14.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="mnfnQZrIMIrw_-pWRgmM" version="15.2.9" type="github" pages="3">
   <diagram id="KdeVS7gIVLTEDAALo1gI" name="readEnrichmentTables">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -655,8 +655,62 @@
         <mxCell id="EfLuJf17GGH-sNyFNe-r-42" value="broadcast the enrich_table" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
           <mxGeometry x="260" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-44" target="EfLuJf17GGH-sNyFNe-r-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EfLuJf17GGH-sNyFNe-r-44" value="use join expression and join type to execute the sql join query on master table and enrich table" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
           <mxGeometry x="100" y="1390" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-47" target="EfLuJf17GGH-sNyFNe-r-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-47" value="output column data type is not empty" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="120" y="1500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-49" target="EfLuJf17GGH-sNyFNe-r-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-49" value="cast the respective columns to the given data types" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="100" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-51" target="EfLuJf17GGH-sNyFNe-r-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-51" value="additional columns expression is not empty" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="120" y="1720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-53" target="EfLuJf17GGH-sNyFNe-r-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-53" value="add the additional columns using the given expression" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="100" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-55" target="EfLuJf17GGH-sNyFNe-r-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-55" value="drop the columns configured in the drop columns" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="100" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-57" target="EfLuJf17GGH-sNyFNe-r-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-57" value="columns rename is not empty" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="120" y="2040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-59" target="EfLuJf17GGH-sNyFNe-r-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-59" value="rename the respective columns" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="100" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-61" target="EfLuJf17GGH-sNyFNe-r-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-61" value="Return the processed dataframe" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="100" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-63" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="276" y="2275" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
