@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T03:16:48.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="jIdysRv04Gw-Alu006jm" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-19T03:17:25.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="aWEtxAw9ZCE96VlAgQ41" version="15.2.9" type="github" pages="3">
   <diagram id="KdeVS7gIVLTEDAALo1gI" name="readEnrichmentTables">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -459,6 +459,11 @@
         <mxCell id="y1lXkvN8_1Fsq_ezLX_2-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RtOCHI0iLL4N4nDev4zX-1" source="y1lXkvN8_1Fsq_ezLX_2-47" target="y1lXkvN8_1Fsq_ezLX_2-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="y1lXkvN8_1Fsq_ezLX_2-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RtOCHI0iLL4N4nDev4zX-1" source="y1lXkvN8_1Fsq_ezLX_2-47" target="y1lXkvN8_1Fsq_ezLX_2-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="y1lXkvN8_1Fsq_ezLX_2-47" value="foreach row in rows" style="whiteSpace=wrap;html=1;" vertex="1" parent="RtOCHI0iLL4N4nDev4zX-1">
           <mxGeometry x="123" y="160" width="120" height="60" as="geometry" />
         </mxCell>
@@ -467,6 +472,9 @@
         </mxCell>
         <mxCell id="y1lXkvN8_1Fsq_ezLX_2-50" value="get enrichment_id, read_enrichment_id connection_string_id&lt;br&gt;table_type&lt;br&gt;status&lt;br&gt;cache&lt;br&gt;cache_frequency" style="whiteSpace=wrap;html=1;" vertex="1" parent="RtOCHI0iLL4N4nDev4zX-1">
           <mxGeometry x="123" y="270" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y1lXkvN8_1Fsq_ezLX_2-58" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RtOCHI0iLL4N4nDev4zX-1">
+          <mxGeometry x="10" y="240" width="82" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
