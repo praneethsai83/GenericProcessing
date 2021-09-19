@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T02:25:42.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="5sJzx0Bqn55-WtmqTh4S" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-19T02:26:00.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="ZuhMX-iiOBt4B66Disat" version="15.2.9" type="github" pages="3">
   <diagram id="KdeVS7gIVLTEDAALo1gI" name="readEnrichmentTables">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="4z696f8C69Jydyqih1xK-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="20" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4z696f8C69Jydyqih1xK-3" value="enrichment_id&lt;br&gt;read_enrichment_id&lt;br&gt;connection_string_id&lt;br&gt;table_type&lt;br&gt;status&lt;br&gt;cache" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="4z696f8C69Jydyqih1xK-3" value="enrichment_id&lt;br&gt;read_enrichment_id&lt;br&gt;connection_string_id&lt;br&gt;table_type&lt;br&gt;status&lt;br&gt;cache" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="341" y="80" width="146" height="90" as="geometry" />
         </mxCell>
       </root>
