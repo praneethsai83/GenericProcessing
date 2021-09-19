@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T07:32:31.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="RKoNepsdtHzX7TBFDH6f" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-19T07:40:43.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="A7LnophT4e6a7k0v7D4F" version="15.2.9" type="github" pages="3">
   <diagram id="KdeVS7gIVLTEDAALo1gI" name="readEnrichmentTables">
     <mxGraphModel dx="1038" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -541,6 +541,9 @@
         <mxCell id="EfLuJf17GGH-sNyFNe-r-2" value="foreach row in the array of &lt;b&gt;row&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
           <mxGeometry x="100" y="510" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-4" target="EfLuJf17GGH-sNyFNe-r-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EfLuJf17GGH-sNyFNe-r-4" value="&lt;b&gt;status&lt;/b&gt; = active and isSuccess" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
           <mxGeometry x="120" y="600" width="80" height="80" as="geometry" />
         </mxCell>
@@ -573,6 +576,55 @@
         </mxCell>
         <mxCell id="EfLuJf17GGH-sNyFNe-r-19" value="&lt;b&gt;TRY&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
           <mxGeometry x="508.5" y="10" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-22" target="EfLuJf17GGH-sNyFNe-r-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-22" value="isSuccess =&lt;b&gt; TRY&lt;/b&gt;(read &lt;b&gt;enrichment_table&lt;/b&gt;)" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="100" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-24" target="EfLuJf17GGH-sNyFNe-r-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-24" target="EfLuJf17GGH-sNyFNe-r-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-24" value="isSuccess" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="120" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-26" value="Control Point" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="260" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-28" target="EfLuJf17GGH-sNyFNe-r-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-28" value="enrichment_column = columns of &lt;b&gt;enrichment_table&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="100" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-30" target="EfLuJf17GGH-sNyFNe-r-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-30" value="&lt;b&gt;extract_columns&lt;/b&gt; is subset of &lt;b&gt;enricment_columns&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="120" y="1010" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Wyom_MOlXRKTMaPKCnEa-1" source="EfLuJf17GGH-sNyFNe-r-34" target="EfLuJf17GGH-sNyFNe-r-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="1100" />
+              <mxPoint x="160" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-34" value="apply an SQL query and get the enrichment_table using extract_columns" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="260" y="1015" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EfLuJf17GGH-sNyFNe-r-36" value="master_join_columns is subset of inputdf columns and enrich_join columns is subset of enrich_table columns" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Wyom_MOlXRKTMaPKCnEa-1">
+          <mxGeometry x="105" y="1120" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
