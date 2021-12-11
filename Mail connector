@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-11T16:13:42.933Z" agent="5.0 (Linux; Android 11; M2012K11I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.92 Mobile Safari/537.36" etag="0f9A5SUcn4Xh8HqO-KRN" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-11T16:15:12.341Z" agent="5.0 (Linux; Android 11; M2012K11I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.92 Mobile Safari/537.36" etag="rAjpW8C_Rr4zSOzR0z3_" version="15.9.4" type="github">
   <diagram id="jcLGyHxEMPVzgbSXp5_J" name="Page-1">
-    <mxGraphModel dx="898" dy="420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1197" dy="1093" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,8 +56,14 @@
         <mxCell id="iqWH3WwyfEs27iPMg-pv-17" value="Create con object for each mail server which belong to an instance maintain them in an array" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="41" y="1845" width="268" height="96" as="geometry" />
         </mxCell>
+        <mxCell id="iqWH3WwyfEs27iPMg-pv-27" value="" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="iqWH3WwyfEs27iPMg-pv-24" target="iqWH3WwyfEs27iPMg-pv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iqWH3WwyfEs27iPMg-pv-24" value="Get message count through dml table" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="549" y="1999" width="152" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="iqWH3WwyfEs27iPMg-pv-26" value="Listen to the latest message using the count for each maik server and write to the destination" style="whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="516" y="2150" width="224" height="126" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
