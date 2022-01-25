@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T04:39:09.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Pb9FSP3QC289-qf2yiNr" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T04:41:51.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="RCiQbLFHUTYH6qKs4H5O" version="15.9.4" type="github">
   <diagram id="WAh6MFpUAKhLQY5999Mn" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,8 +22,41 @@
         <mxCell id="PhQz22h7tlOAfdogjcgz-4" value="Get their values from the attribute table and store in a list say &lt;b&gt;col_list&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="190" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="PhQz22h7tlOAfdogjcgz-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhQz22h7tlOAfdogjcgz-6" target="PhQz22h7tlOAfdogjcgz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PhQz22h7tlOAfdogjcgz-6" value="select all the columns in &lt;b&gt;col_list&lt;/b&gt; from the final dataframe and find distinct values and store it in an array say &lt;b&gt;att_arr&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="290" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PhQz22h7tlOAfdogjcgz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhQz22h7tlOAfdogjcgz-8" target="PhQz22h7tlOAfdogjcgz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhQz22h7tlOAfdogjcgz-8" value="foreach element in &lt;b&gt;att_arr&amp;nbsp;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhQz22h7tlOAfdogjcgz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhQz22h7tlOAfdogjcgz-10" target="PhQz22h7tlOAfdogjcgz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhQz22h7tlOAfdogjcgz-10" value="filter the output dataframe based on the element in arr" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhQz22h7tlOAfdogjcgz-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhQz22h7tlOAfdogjcgz-12" target="PhQz22h7tlOAfdogjcgz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhQz22h7tlOAfdogjcgz-12" value="drop the columns used for attributes" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhQz22h7tlOAfdogjcgz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhQz22h7tlOAfdogjcgz-14" target="PhQz22h7tlOAfdogjcgz-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="790" />
+              <mxPoint x="510" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhQz22h7tlOAfdogjcgz-14" value="write the dataframe or add it to futures list" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
